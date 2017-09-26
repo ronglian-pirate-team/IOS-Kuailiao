@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OfficalWeb</key>
+	<string>http://www.yuntongxun.com</string>
+	<key>IMPlusWeb</key>
+	<string>http://www.yuntongxun.com/api/im</string>
+	<key>DeveloperDocWeb</key>
+	<string>http://www.yuntongxun.com/doc/sdk/ios/2_2_1_1.html</string>
+	<key>ReleaseNoteWeb</key>
+	<string>http://bbs.yuntongxun.com/forum.php?mod=viewthread&amp;tid=2447</string>
+	<key>ErrorWeb</key>
+	<string>http://www.yuntongxun.com/doc/sdk/sdkabout/2_1_1_3.html</string>
+</dict>
+</plist>

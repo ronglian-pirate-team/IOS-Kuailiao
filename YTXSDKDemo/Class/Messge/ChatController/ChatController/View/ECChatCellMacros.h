@@ -1,0 +1,64 @@
+//
+//  ECChatCellMacros.h
+//  YTXSDKDemo
+//
+//  Created by huangjue on 2017/8/10.
+//
+
+#ifndef ECChatCellMacros_h
+#define ECChatCellMacros_h
+
+#define EC_KVoiceIsPlayKey @"EC_KVoiceIsPlayKey"
+
+#define EC_KNOTIFICATION_ChatRefreshMoreData @"EC_KNOTIFICATION_ChatRefreshMoreData"
+#define EC_KNOTIFICATION_ScrollTable @"EC_KNOTIFICATION_ScrollTable"
+
+#define EC_CHAT_TEXTCELL_BubbleMaxSize CGSizeMake([UIScreen mainScreen].bounds.size.width - EC_SIZE_SCALE(100.0f), 10000.0f)
+
+#define EC_CHAT_CELL_V_Other 59.0f
+#define EC_CHAT_CELL_H_Other 60.0f
+#define EC_CHAT_TIMEL_H 9.5f
+#define EC_CHAT_BGCONTENT_ANGLE_W 8.0f
+#define EC_CHAT_CELL_V_OtherCell 40.5
+
+
+#define EC_CHAT_REVOKECELL_TOPMARGIN 5.0f
+#define EC_CHAT_REVOKECELL_HORMARGIN 10.0f
+
+#define EC_CHAT_TEXTCELL_H_MARGIN 43.0f
+#define EC_CHAT_TEXTCELL_H_LEFT 24.0f
+#define EC_CHAT_TEXTCELL_H_RIGHT 19.0f
+#define EC_CHAT_TEXTCELL_H_TOPMARGIN 12.5f
+#define EC_CHAT_TEXTCELL_FONT 16.0f
+
+#define EC_CHATCELL_VOICE_V 43.0f
+#define EC_CHATCELL_VOICE_PLAYIMG_MARGIN 12.0f
+#define EC_CHATCELL_VOICE_DURATION_BASE_W 80.0f
+#define EC_CHATCELL_VOICE_DURATION_ROTE_W 8.0f
+
+#define EC_CHATCELL_PREVIEW_H EC_SIZE_SCALE(237.0f)
+#define EC_CHATCELL_PREVIEW_V 120.0f
+
+#define EC_CHATCELL_LOCATION_H EC_SIZE_SCALE(250.5f)
+#define EC_CHATCELL_LOCATION_V 135.5f
+
+#define EC_CHAT_BASEIMGCELL_H 120.0f
+#define EC_CHAT_BASEIMGCELL_V 120.0f
+#define EC_CHATCELL_IMAGE_V 140.0f
+#define EC_CHATCELL_DEFAULTIMG EC_Image_Named(@"chatIconFasongtupianPlaceholder")
+
+#define EC_CHATCELL_VIDEO_V EC_SIZE_SCALE(182.0f)
+#define EC_CHATCELL_VIDEO_H 108.0f
+
+#define EC_CHATCELL_FILE_H EC_SIZE_SCALE(210.5f)
+#define EC_CHATCELL_FILE_V 50.0f
+
+#define EC_CHAT_REDPACKETCELL_H EC_SIZE_SCALE(245.5)
+#define EC_CHAT_REDPACKETCELL_V 95.0f
+
+#define BACKGROUND_LEFT_RIGHT_PADDING 10
+#define ICON_LEFT_RIGHT_PADDING 5
+#define ICON_TOP_PADDING 2
+#define ICON_W 12.0f
+
+#endif /* ECChatCellMacros_h */

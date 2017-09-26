@@ -1,0 +1,84 @@
+//
+//  YTXSDKDemo-Prefix.pch
+//  YTXSDKDemo
+//
+//  Created by xt on 2017/7/20.
+//  Copyright © 2017年 xt. All rights reserved.
+//
+
+#ifndef YTXSDKDemo_Prefix_pch
+#define YTXSDKDemo_Prefix_pch
+
+#import "ECDeviceNotifyMacros.h"
+
+#import "AppDelegate.h"
+#import "ECAppInfo.h"
+#import "Masonry.h"
+
+#import "ECBaseCellModel.h"
+#import "ECBaseContoller.h"
+#import "ECBaseScrollController.h"
+
+#import "UIImageView+WebCache.h"
+#import "UIColor+Util.h"
+#import "NSDictionary+ECExtension.h"
+#import "NSString+ECUnitl.h"
+#import "UIView+Frame.h"
+#import "UIImage+ECUtil.h"
+#import "NSDate+ECUtil.h"
+#import "UINavigationController+ECUtil.h"
+#import "UIViewController+ECUtil.h"
+
+#import "ECColorSpace.h"
+#import "ECAppKey.h"
+#import "ECNotificationKey.h"
+
+#import "ECCommonTool.h"
+#import "MBProgressHUD+ECUnitl.h"
+#import "NSObject+ECSwizzleMethod.h"
+#import "NSArray+ECUtil.h"
+#import "ECAlertController.h"
+
+#ifdef DEBUG
+#define EC_Demo_AppLog(fmt,...) {NSLog((fmt), ##__VA_ARGS__);}
+#else
+#define EC_Demo_AppLog(fmt,...) {}
+#endif
+
+
+#define EC_AppName [[NSBundle mainBundle].infoDictionary objectForKey:@"CFBundleDisplayName"]
+#define EC_BundleID [[NSBundle mainBundle].infoDictionary objectForKey:@"CFBundleIdentifier"]
+
+#define EC_WS(ws) __weak typeof(self)weakSelf = ws;
+#define EC_SS(ss) __weak typeof(self)strongSelf = ss;
+
+#define EC_kScreenW [UIScreen mainScreen].bounds.size.width
+#define EC_kScreenH [UIScreen mainScreen].bounds.size.height
+
+#define EC_SIZE_SCALE(ec_length) (ec_length * EC_kScreenW / 375.0f)
+
+#define EC_KCNSSTRING_ISEMPTY(str) (str == nil || [str isEqual:[NSNull null]] || str.length <= 0)
+
+#define EC_Image_Named(imageN) [UIImage imageNamed:imageN]
+#define EC_Font_System(size) [UIFont systemFontOfSize:size]
+#define EC_Font_SystemBold(size) [UIFont boldSystemFontOfSize:size]
+
+#define EC_ShowHUD(message) \
+__weak typeof(self)weakSelf = self;\
+MBProgressHUD* hud = [MBProgressHUD showHUDAddedTo:weakSelf.view animated:YES];\
+hud.label.text = message;\
+hud.removeFromSuperViewOnHide = YES;
+
+#define EC_HideHUD [MBProgressHUD hideHUDForView:weakSelf.view animated:YES];
+
+#define EC_ShowHUD_OnView(message, view) \
+MBProgressHUD* hud = [MBProgressHUD showHUDAddedTo:view animated:YES];\
+hud.label.text = message;\
+hud.removeFromSuperViewOnHide = YES;
+
+#define EC_HideHUD_OnView(view) [MBProgressHUD hideHUDForView:view animated:YES];
+
+
+#define EC_AlterShow(warningTitle,messageTitle,cacelTitle) [[[UIAlertView alloc] initWithTitle:warningTitle message:messageTitle delegate:nil cancelButtonTitle:cacelTitle otherButtonTitles:nil] show];
+
+#endif /* YTXSDKDemo_Prefix_pch */

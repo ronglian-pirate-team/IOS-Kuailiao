@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "dd6d2e1d-415a-4aae-9b9e-7302682725ca++7209",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "dd6d2e1d-415a-4aae-9b9e-7302682725ca++7209" : {
+
+    },
+    "dd6d2e1d-415a-4aae-9b9e-7302682725ca++7582" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "dd6d2e1d-415a-4aae-9b9e-7302682725ca++7209" : 9223372036854775807,
+    "dd6d2e1d-415a-4aae-9b9e-7302682725ca++7582" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7E460529-A4EC-4797-8B85-B9FBAC1F2D59",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "dd6d2e1d-415a-4aae-9b9e-7302682725ca++7209" : "ytxNewDemo\/",
+    "dd6d2e1d-415a-4aae-9b9e-7302682725ca++7582" : "YTXDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YTXSDKDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YTXSDKDemo\/YTXSDKDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.178.11\/iosdb",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "dd6d2e1d-415a-4aae-9b9e-7302682725ca++7209"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.178.11\/iosdb",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "dd6d2e1d-415a-4aae-9b9e-7302682725ca++7582"
+    }
+  ]
+}
